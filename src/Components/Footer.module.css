@@ -1,0 +1,32 @@
+
+.footer {
+    width: 100%;
+    background-color: rgb(41, 41, 53);
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.footer span {
+    flex: 1;  
+    text-align: center;  
+}
+
+.icons {
+    display: flex; 
+    gap: 10px;
+    list-style-type: none; 
+    margin: 0;
+    padding: 20px;
+}
+
+.icons li {
+    margin: 0;
+  }
+  
+.icons img {
+    width: 20px;
+    height: auto;
+  }
+
